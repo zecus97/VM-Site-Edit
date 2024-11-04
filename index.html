@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Advanced Blog</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Advanced Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="container mt-5">
+    <div class="row">
+        <!-- Main Content -->
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">First Advanced Article Title</h2>
+                    <p class="card-text">
+                        This is some sample text for the first article. Feel free to add more content and style it as needed.
+                    </p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Second Advanced Article Title</h2>
+                    <p class="card-text">
+                        This is some sample text for the second article. Experiment with different layouts and design enhancements.
+                    </p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Third Advanced Article Title</h2>
+                    <p class="card-text">
+                        Challenge yourself to add more features and make the blog more interactive and user-friendly.
+                    </p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>About the Blog</h3>
+                    <p>This blog is more advanced, requiring enhancements and restructuring. Consider adding more sections and making it dynamic with JavaScript.</p>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Useful Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About the Author</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>Recent Posts</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">How to Improve Your Blog</a></li>
+                        <li><a href="#">Understanding CSS Grid</a></li>
+                        <li><a href="#">10 JavaScript Tips and Tricks</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white mt-5 p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>All Rights Reserved © 2024 | Designed by [Abdelrahman]</p>
+            </div>
+            <div class="col-md-6">
+                <!-- Contact Form -->
+                <form>
+                    <div class="mb-3">
+                        <label for="contactEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactMessage" class="form-label">Message</label>
+                        <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button onclick="topFunction()" id="backToTopBtn" class="btn btn-secondary" style="position: fixed; bottom: 20px; right: 20px; display: none;">Back to Top</button>
+
+<!-- Scripts -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
